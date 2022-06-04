@@ -1,0 +1,7 @@
+name: cookiecutter-personal-template
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter=1.7.3
+prefix: C:\Users\cvigo\.conda\envs\cookiecutter-personal-template
