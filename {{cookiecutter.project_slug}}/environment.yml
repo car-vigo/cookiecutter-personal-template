@@ -5,21 +5,21 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  {%- if cookiecutter.project_packages == "All" -%}
+  {% if cookiecutter.project_packages == "All" -%}
   - pandas-profiling
   - fs
   - jupyterlab
   - jupyter
   - pathlib
-  {%- elif cookiecutter.project_packages != "All" -%}
+  {% elif cookiecutter.project_packages != "All" -%}
   - pandas
   - matplotlib
   - seaborn
-  {%- endif -%}
+  {% endif -%}
   - pip
   - pyprojroot
   - python={{ cookiecutter.python_version }}
   - pip:
-    {%- if cookiecutter.project_packages == "All" -%}
+    {% if cookiecutter.project_packages == "All" -%}
     - pyhere
-    {%- endif -%}
+    {% endif -%}
