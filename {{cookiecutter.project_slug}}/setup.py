@@ -20,7 +20,7 @@ def readme() -> str:
 setup(
     name="{{ cookiecutter.project_slug }}",
     version="{{ cookiecutter.project_version }}",
-    author="{{ cookiecutter.author_name }}",
+    author="{{ cookiecutter.project_author_name }}",
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.project_description }}",
     python_requires=">=3",
