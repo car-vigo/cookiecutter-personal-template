@@ -6,7 +6,7 @@ channels:
   - defaults
 dependencies:
   {% if cookiecutter.project_packages == "All" -%}
-  - pandas-profiling
+  - pandas-profiling=3.2.0
   - fs
   - jupyterlab
   - jupyter
