@@ -8,6 +8,7 @@
     "project_packages" : [
         "All",
         "Minimal"
+	"EU"
     ],
     "python_version": "3.9"
 }
